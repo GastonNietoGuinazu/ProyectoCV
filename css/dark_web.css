@@ -1,0 +1,29 @@
+:root{
+    --black: #283747;
+    --grey: #34495e;
+    --typography: #ffee58;
+}
+body.dark{
+    color: var(--typography);
+}
+body.dark header{
+    background-color: var(--black);
+}
+body.dark #darck:hover{
+    background-color: white;
+}
+body.dark main{
+    background-color: var(--grey);
+}
+body.dark .experience{
+    background-color: var(--black);
+}
+body.dark .skills{
+    background-color: var(--black);
+}
+body.dark .academic{
+    background-color: var(--black);
+}
+body.dark footer{
+    background-color: var(--grey);
+}

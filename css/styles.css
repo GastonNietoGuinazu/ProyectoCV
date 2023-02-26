@@ -6,16 +6,24 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 :root{
-    --pink: #d8d9dd;
+    --pink: #d8c9dd;
     --pastel-pink: #fd9399;
 }
 h1{
     font-size: 30px;
 }
 h3{
-    padding-left: 50%;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+#title-experience{
+    padding-left: 37%;
+}
+#title-skills{
+    text-align: center;
+}
+#title-academic{
+   text-align: center;
 }
 .title{
     padding-left: 50px;
@@ -27,10 +35,19 @@ p{
 /* Header */
 
 header{
-    background-color:#fd9399;
+    background-color:var(--pastel-pink);
     display: flex;
     justify-content: space-between;
     padding: 15px;
+}
+#switch{
+    border: solid;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#switch:hover{
+    background-color: gold;
 }
 
 /* Main */
@@ -99,4 +116,10 @@ footer{
 .made{
     padding-top: 10px;
     padding-left: 25px;
+}
+
+@media only screen and (min-width: 768px){
+    #title-experience{
+        padding-left: 42%;
+    }
 }
